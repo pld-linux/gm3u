@@ -42,7 +42,7 @@ pomoc± zewnêtrznej odtwarzarki.
 
 %build
 #echo | gettextize --copy --force
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
