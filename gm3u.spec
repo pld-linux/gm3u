@@ -27,11 +27,11 @@ the MP3 file will be displayed when the file is selected. Single songs
 can be played with an external MP3 player.
 
 %description -l pl
-Gm3u jest edytorem list plików mp3 do odtwarzania; zosta³ napisany z
+Gm3u jest edytorem list plików MP3 do odtwarzania; zosta³ napisany z
 wykorzystaniem GTK+ i bibliotek GNOME. Pozwala tworzyæ i modyfikowaæ
 listy plików do odtworzenia; s± one przechowywane w plikach tekstowych
 obs³ugiwanych przez wiêkszo¶æ odtwarzaczy MP3. Funkcje: mo¿na
-zaznaczyæ pliki mp3 w przegl±darce plików i/lub dodaæ je do
+zaznaczyæ pliki MP3 w przegl±darce plików i/lub dodaæ je do
 istniej±cej listy plików, albo utworzyæ now± listê. Mo¿na usuwaæ i
 przesuwaæ utwory w kolejce. Je¶li plik MP3 zawiera znacznik ID3,
 bêdzie on wy¶wietlony podczas wyboru pliku. Pojedyncze pliki mo¿na
