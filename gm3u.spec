@@ -46,8 +46,8 @@ rm -f missing
 #echo | gettextize --copy --force
 aclocal -I macros
 autoheader
-autoconf
-automake -a -c -f
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
