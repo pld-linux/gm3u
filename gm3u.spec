@@ -47,7 +47,7 @@ rm -f missing
 aclocal -I macros
 autoheader
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make}
 
