@@ -10,6 +10,8 @@ Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
+BuildRequires:	autoconf
+BuildRequires:	automake
 #BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -42,7 +44,12 @@ pomoc± zewnêtrznej odtwarzarki.
 %setup -q
 
 %build
+rm -f missing
 #echo | gettextize --copy --force
+aclocal -I macros
+autoheader
+autoconf
+automake -a -c
 %configure
 %{__make}
 
