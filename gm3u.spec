@@ -1,7 +1,8 @@
 Summary:	Gnome enabled MP3 play-list editor
+Summary(pl):	Edytor playlist MP3 dla GNOME
 Name:		gm3u
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPL
 Vendor:		Bodo Bauer
 Group:		X11/Applications/Multimedia
@@ -39,10 +40,10 @@ pomoc± zewnêtrznej odtwarzarki.
 
 %prep
 %setup -q
-%configure
 
 %build
 #echo | gettextize --copy --force
+%configure
 %{__make}
 
 %install
