@@ -10,7 +10,7 @@ Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
 #BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel >= 1.2.0
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
@@ -34,7 +34,6 @@ Funkcje: mozna zaznaczyæ pliki mp3 w przegl±darce plików i albo ddodac je do
 istniej±cej listy plików, albo utworzyæ now± listê. Mo¿na usuwaæ i przesuwaæ
 utwory w kolejce. Je¶li plik MP3 zawiera tag ID3, bêdzie on wy¶wietlony podczas 
 wyboru pliku. Pojedyncze pliki mo¿na odgrywac za pomoc± zewnêtrznej odtwarzarki.
-
 
 %prep
 %setup -q
