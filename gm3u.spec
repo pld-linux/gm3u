@@ -1,15 +1,16 @@
 Summary:	Gnome enabled MP3 play-list editor
 Name:		gm3u
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL
-Group:		X11/Applications/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Vendor:		Bodo Bauer
+Group:		X11/Applications/Multimedia
+Group(de):	X11/Applikationen/Multimedia
+Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
 #BuildRequires:	gettext-devel
-BuildRequires:	gtk+-devel >= 1.2.0
+BuildRequires:	gnome-libs-devel-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
