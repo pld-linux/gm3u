@@ -7,6 +7,7 @@ License:	GPL
 Vendor:		Bodo Bauer
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
+# Source0-md5:	b248b90599e0497459d1b1d07b5c4ec9
 URL:		http://www.bb-zone.com/gm3u/
 BuildRequires:	autoconf
 BuildRequires:	automake
