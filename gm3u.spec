@@ -14,7 +14,6 @@ BuildRequires:	automake
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Gm3u is an MP3 play-list editor made with GTK+ toolkit and the Gome
