@@ -6,8 +6,6 @@ Release:	3
 License:	GPL
 Vendor:		Bodo Bauer
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
 BuildRequires:	autoconf
