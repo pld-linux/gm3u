@@ -15,7 +15,6 @@ BuildRequires:	automake
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 Gm3u is an MP3 play-list editor made with GTK+ toolkit and the Gome
 libraries. It allow you to create and edit play-lists. The play-lists
@@ -29,20 +28,19 @@ can be played with an external MP3 player.
 
 %description -l pl
 Gm3u jest edytorem list plików mp3 do odtwarzania; zosta³ napisany z
-wykorzystaniem GTK+ i bibliotek GNOME. Pozwala tworzyæ i edytowaæ
+wykorzystaniem GTK+ i bibliotek GNOME. Pozwala tworzyæ i modyfikowaæ
 listy plików do odtworzenia; s± one przechowywane w plikach tekstowych
-obs³ugiwanych przez wiêkszo¶æ odtwarzarek MP3. Funkcje: mo¿na
+obs³ugiwanych przez wiêkszo¶æ odtwarzaczy MP3. Funkcje: mo¿na
 zaznaczyæ pliki mp3 w przegl±darce plików i/lub dodaæ je do
 istniej±cej listy plików, albo utworzyæ now± listê. Mo¿na usuwaæ i
-przesuwaæ utwory w kolejce. Je¶li plik MP3 zawiera tag ID3, bêdzie on
-wy¶wietlony podczas wyboru pliku. Pojedyncze pliki mo¿na odgrywaæ za
-pomoc± zewnêtrznej odtwarzarki.
+przesuwaæ utwory w kolejce. Je¶li plik MP3 zawiera znacznik ID3,
+bêdzie on wy¶wietlony podczas wyboru pliku. Pojedyncze pliki mo¿na
+odgrywaæ za pomoc± zewnêtrznego odtwarzacza.
 
 %prep
 %setup -q
 
 %build
-rm -f missing
 #echo | gettextize --copy --force
 %{__aclocal} -I macros
 %{__autoheader}
