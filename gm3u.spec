@@ -5,7 +5,7 @@ Version:	0.2
 Release:	3
 License:	GPL
 Vendor:		Bodo Bauer
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
 BuildRequires:	autoconf
