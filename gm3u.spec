@@ -44,8 +44,8 @@ pomoc± zewnêtrznej odtwarzarki.
 %build
 rm -f missing
 #echo | gettextize --copy --force
-aclocal -I macros
-autoheader
+%{__aclocal} -I macros
+%{__autoheader}
 %{__autoconf}
 %{__automake}
 %configure
