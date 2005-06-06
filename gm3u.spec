@@ -11,7 +11,7 @@ Source0:	ftp://ftp.bb-zone.com/pub/gm3u/%{name}-%{version}.tar.gz
 URL:		http://www.bb-zone.com/gm3u/
 BuildRequires:	autoconf
 BuildRequires:	automake
-#BuildRequires:	gettext-devel
+BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
