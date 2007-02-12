@@ -1,5 +1,5 @@
 Summary:	GNOME enabled MP3 play-list editor
-Summary(pl):	Edytor playlist MP3 dla GNOME
+Summary(pl.UTF-8):   Edytor playlist MP3 dla GNOME
 Name:		gm3u
 Version:	0.2
 Release:	4
@@ -26,16 +26,16 @@ end or to the beginning of the play-list. If available, the ID3 tag of
 the MP3 file will be displayed when the file is selected. Single songs
 can be played with an external MP3 player.
 
-%description -l pl
-Gm3u jest edytorem list plików MP3 do odtwarzania; zosta³ napisany z
-wykorzystaniem GTK+ i bibliotek GNOME. Pozwala tworzyæ i modyfikowaæ
-listy plików do odtworzenia; s± one przechowywane w plikach tekstowych
-obs³ugiwanych przez wiêkszo¶æ odtwarzaczy MP3. Funkcje: mo¿na
-zaznaczyæ pliki MP3 w przegl±darce plików i/lub dodaæ je do
-istniej±cej listy plików, albo utworzyæ now± listê. Mo¿na usuwaæ i
-przesuwaæ utwory w kolejce. Je¶li plik MP3 zawiera znacznik ID3,
-bêdzie on wy¶wietlony podczas wyboru pliku. Pojedyncze pliki mo¿na
-odgrywaæ za pomoc± zewnêtrznego odtwarzacza.
+%description -l pl.UTF-8
+Gm3u jest edytorem list plikÃ³w MP3 do odtwarzania; zostaÅ‚ napisany z
+wykorzystaniem GTK+ i bibliotek GNOME. Pozwala tworzyÄ‡ i modyfikowaÄ‡
+listy plikÃ³w do odtworzenia; sÄ… one przechowywane w plikach tekstowych
+obsÅ‚ugiwanych przez wiÄ™kszoÅ›Ä‡ odtwarzaczy MP3. Funkcje: moÅ¼na
+zaznaczyÄ‡ pliki MP3 w przeglÄ…darce plikÃ³w i/lub dodaÄ‡ je do
+istniejÄ…cej listy plikÃ³w, albo utworzyÄ‡ nowÄ… listÄ™. MoÅ¼na usuwaÄ‡ i
+przesuwaÄ‡ utwory w kolejce. JeÅ›li plik MP3 zawiera znacznik ID3,
+bÄ™dzie on wyÅ›wietlony podczas wyboru pliku. Pojedyncze pliki moÅ¼na
+odgrywaÄ‡ za pomocÄ… zewnÄ™trznego odtwarzacza.
 
 %prep
 %setup -q
