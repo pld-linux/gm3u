@@ -1,5 +1,5 @@
 Summary:	GNOME enabled MP3 play-list editor
-Summary(pl.UTF-8):   Edytor playlist MP3 dla GNOME
+Summary(pl.UTF-8):	Edytor playlist MP3 dla GNOME
 Name:		gm3u
 Version:	0.2
 Release:	4
